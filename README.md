@@ -39,4 +39,89 @@ The project demonstrates the following OOP concepts:
 
 1. **Encapsulation:** Data members are protected using appropriate access modifiers, with methods controlling access to them.
 2. **Inheritance:** Student and Staff classes inherit from the User class. TwoWheeler and FourWheeler classes inherit from the Vehicle class.
-3. **Abstraction:** Abstract
+3. **Abstraction:** Abstract User and Vehicle classes define common properties and behaviours.
+4. **Polymorphism:** Common methods are implemented and used through parent-class references, supporting runtime polymorphism.
+
+## Technologies Used
+
+- **Programming Language:** Java
+- **IDE:** Visual Studio Code
+- **JDK:** Java Development Kit 21
+- **Data Storage:** Text File Handling
+- **Collections:** ArrayList
+- **Date and Time:** LocalDateTime
+- **Input Handling:** Scanner
+- **Exception Handling:** Java Exception Handling
+
+## Project Structure
+
+The project consists of the following Java source files:
+
+| File Name | Description |
+|---|---|
+| Main.java | Main program and menu-driven interface |
+| User.java | Abstract base class for users |
+| Student.java | Student user implementation |
+| Staff.java | Staff user implementation |
+| Vehicle.java | Abstract base class for vehicles |
+| TwoWheeler.java | Two-wheeler vehicle implementation |
+| FourWheeler.java | Four-wheeler vehicle implementation |
+| ParkingSlot.java | Manages parking slot information |
+| ParkingRecord.java | Stores parking transaction details |
+| ParkingManager.java | Handles parking operations and management |
+| FileManager.java | Handles file storage and retrieval |
+| ConsoleColors.java | Provides console text formatting |
+
+## Data Storage
+
+The application uses text files to preserve information between program executions.
+
+- `users.txt` – Stores registered user details.
+- `vehicles.txt` – Stores registered vehicle details.
+- `parking_records.txt` – Stores parking transaction records.
+
+These files allow the system to retrieve previously stored information when the application is restarted.
+
+## How to Run the Project
+
+### Prerequisites
+
+- Install Java JDK 21 or a compatible version.
+- Install Visual Studio Code.
+- Open the SmartPark project folder in VS Code.
+
+### Execution Steps
+
+1. Open the project folder in Visual Studio Code.
+2. Open the integrated terminal.
+3. Compile the Java files:
+
+   ```bash
+   javac *.java
+   ```
+
+4. Run the application:
+
+   ```bash
+   java Main
+   ```
+
+5. The SmartPark main menu will appear in the console.
+
+## Future Enhancements
+
+- Graphical User Interface (GUI).
+- Database integration.
+- Online parking reservation.
+- Payment and billing facilities.
+- Real-time parking slot monitoring.
+
+## Project Purpose
+
+The primary objective of SmartPark is to demonstrate the practical implementation of Object-Oriented Programming concepts through a real-world campus parking management application. It combines Java programming, inheritance, abstraction, polymorphism, encapsulation, collections, and file handling in one integrated project.
+
+---
+
+**SmartPark – Campus Parking Management System**
+
+*Developed as an Object-Oriented Programming Lab Project.*
